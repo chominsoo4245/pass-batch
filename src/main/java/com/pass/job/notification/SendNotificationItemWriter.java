@@ -1,4 +1,4 @@
-package com.pass.config.job.notification;
+package com.pass.job.notification;
 import com.pass.adapter.message.KakaoTalkMessageAdapter;
 import com.pass.repository.notification.NotificationEntity;
 import com.pass.repository.notification.NotificationRepository;

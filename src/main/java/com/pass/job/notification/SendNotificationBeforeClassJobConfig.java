@@ -1,4 +1,4 @@
-package com.pass.config.job.notification;
+package com.pass.job.notification;
 
 import com.pass.repository.booking.BookingEntity;
 import com.pass.repository.notification.NotificationEntity;
@@ -21,9 +21,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 
-import javax.management.Notification;
 import javax.persistence.EntityManagerFactory;
-import java.time.LocalDateTime;
 import java.util.Map;
 
 @Configuration
